@@ -1,0 +1,149 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+@media (max-width: 960px) {
+  .card-info {
+    width: 600px;
+    margin:auto;
+    padding: auto;
+    align-self: center;
+  }
+}
+@media (max-width: 720px) {
+  .card-info {
+    width: 400px;
+    margin:auto;
+    padding: auto;
+    align-self: center;
+  }
+}
+@media (max-width: 540px) {
+  .card-info {
+    width: 200px;
+    margin:auto;
+    padding: auto;
+    align-self: center;
+
+  }
+}
+
+@media (max-width: 960px) {
+  .card-icons {
+    width: 600px;
+    margin:auto;
+    padding: auto;
+    align-self: center;
+  }
+}
+@media (max-width: 720px) {
+  .card-icons {
+    width: 400px;
+    margin:auto;
+    padding: auto;
+    align-self: center;
+  }
+}
+@media (max-width: 540px) {
+  .card-icons {
+    width: 200px;
+    margin:auto;
+    padding: auto;
+    align-self: center;
+  }
+}
+
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color:#01161E;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: large;
+  color: #01161E;
+}
+
+h3 {
+  font-family: 'Space Mono', monospace;
+  font-weight: 300;
+  color: #FFEDE1;
+}
+
+h4 {
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: 300;
+  color: #01161E;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: #598392;
+  background-color: #F7F9FC;
+  text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #6CCFF6;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: black
+}
+
+.card-info {
+  background: white;
+  padding: 30px;
+  padding: 20px 10px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  align-content: center;
+}
+
+.card-icons {
+  background: white;
+  padding: 20px 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+
+.container {
+  padding-top: 10px;
+  width: 700px;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  font-size: 50px;
+  display: inline-block;
+  padding: 0px 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.icon {
+color: lightgrey;
+}
+
+.icon:hover {
+  color: black;
+}
+
+
+
